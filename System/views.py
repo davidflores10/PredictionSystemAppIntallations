@@ -6,3 +6,7 @@ from django.template import Context, loader
 
 def index(request):
     return render(request, "index.html")
+
+
+def neural(request):
+    return HttpResponse('hello world')
