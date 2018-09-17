@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('neural/', views.neural, name='neural'),
+    path('neural_even_and_odd/', views.neural_even_and_odd, name='neural'),
 ]
